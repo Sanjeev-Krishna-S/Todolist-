@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Updated CSS for the navigation bar */
+nav {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 0; /* Increased the height of the navbar */
+    text-align: right;
+}
+
+#nav1, #nav2 {
+    display: inline; /* Display the list items inline */
+    margin-left: 10px; /* Add spacing between the buttons */
+    font-size: 1.4em;
+}
+
+#nav2 {
+    margin-right: 40px; /* Add more spacing to the right of the "Logout" button */
+}
+
+#nav1 a {
+    font-size: 1em;
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#nav2 a {
+    font-size: 1em;
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    margin: 0 10px; /* Add some space between the buttons */
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+    #nav2 a {
+        margin-right: 20px; /* Adjust the margin for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        padding: 10px 0; /* Further reduce the navbar height for very small screens */
+    }
+    #nav1, #nav2 {
+        font-size: 1.2em; /* Reduce font size for smaller screens */
+    }
+    #nav2 {
+        margin-right: 20px; /* Adjust margin for the "Logout" button */
+    }
+    nav li {
+        margin: 0 5px; /* Reduce space between buttons for smaller screens */
+    }
+}
+
+h2{
+    margin-left: 51px;
+}
+
+#taskList{
+    list-style: none;
+    padding-bottom: 8px;
+}
